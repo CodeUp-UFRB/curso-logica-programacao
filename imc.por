@@ -1,3 +1,7 @@
+\\ Fa√ßa um algoritmo para calcular o √≠ndice de massa corp√≥rea (IMC) de uma pessoa e determinar a sua classifica√ß√£o de acordo com a tabela abaixo.
+
+\\ Equa√ß√£o: IMC = Peso / Altura^2
+
 programa {
 	funcao inicio() {
 		real imc, peso, altura
@@ -8,19 +12,19 @@ programa {
 		leia(altura)
 		
 		imc = peso / (altura*altura)
-		escreva("Seu IMC È: ", imc, "\n")
+		escreva("Seu IMC √©: ", imc, "\n")
 		
 	    se (imc <= 18.5){
-		    escreva("Sua classificaÁ„o È: Baixo Peso")
+		    escreva("Sua classifica√ß√£o √©: Baixo Peso")
 		}	
 	    senao se (imc > 18.5 e imc < 24.99){
-            escreva("Sua classificaÁ„o È: Normal")
+            escreva("Sua classifica√ß√£o √©: Normal")
         }
         senao se (imc >= 25 e imc <= 29.99){
-            escreva("Sua classificaÁ„o È: Sobrepeso")
+            escreva("Sua classifica√ß√£o √©: Sobrepeso")
         }
         senao{
-            escreva("Sua classificaÁ„o È: Obesidade")
+            escreva("Sua classifica√ß√£o √©: Obesidade")
         }
 	}
 }
