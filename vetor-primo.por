@@ -1,3 +1,6 @@
+\\ Crie um algoritmo que peça ao usuário que informe 5 números inteiros, armazene-os em um vetor e mostre todos os elementos que são números primos.
+\\ Observação: Um número é considerado primo se ele é divisível por 1 e por ele mesmo (O número 1 não é um número primo, pois ele tem apenas um divisor).
+
 programa{
 	funcao inicio(){
 		inteiro numeros[5], i, j, k, divisores = 0
@@ -21,14 +24,3 @@ programa{
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 130; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
