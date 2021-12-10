@@ -1,3 +1,5 @@
+\\ Crie um algoritmo que peça ao usuário que informe 10 números quaisquer, armazene-os em um vetor e apresente a média de todos os valores.
+
 programa{
 	funcao inicio(){
 		inteiro numeros[10], i, j, soma = 0, media
@@ -16,14 +18,3 @@ programa{
 		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 209; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
