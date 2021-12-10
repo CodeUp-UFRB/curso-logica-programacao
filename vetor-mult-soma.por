@@ -1,3 +1,6 @@
+\\ Crie um algoritmo que peça ao usuário que informe 10 números inteiros e armazene-os em um vetor.
+\\ A seguir, apresente a multiplicação de todos os elementos pares e a soma de todos os elementos ímpares.
+
 programa{
 	funcao inicio(){
 		inteiro numeros[10], i, j, soma = 0, multi = 1
@@ -20,14 +23,3 @@ programa{
 		
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 366; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
