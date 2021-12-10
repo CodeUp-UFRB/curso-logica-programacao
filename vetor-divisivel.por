@@ -1,5 +1,10 @@
-programa{
-	funcao inicio(){
+\\ Faça um algoritmo que leia e mostre um vetor de 10 números inteiros. A seguir, peça ao usuário
+\\ para informar um valor inteiro e positivo e mostre todos os números do vetor que são divisíveis por esse número.
+
+programa
+{
+	funcao inicio()
+{
 		inteiro numeros[10], i, j, usuario
 
 		para(i=0; i<10; i++){
@@ -19,14 +24,3 @@ programa{
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 372; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
