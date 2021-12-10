@@ -1,8 +1,10 @@
+\\ Escrever um programa que leia um número inteiro n e calcule e mostre a tabuada do n.
+
 programa {
 	funcao inicio() {
 		inteiro n, tabuada, i = 1
 		
-		escreva("Digite o n�mero a ser calculado a sua tabuada \n")
+		escreva("Digite o número a ser calculado a sua tabuada \n")
 		leia(n)
 		
 	    enquanto (i < 11) {
